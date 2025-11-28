@@ -1,0 +1,12 @@
+.main-content {
+	flex: 1;
+}
+
+.footer {
+	text-align: center;
+  padding: 20px 0;
+  color: #594740;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+

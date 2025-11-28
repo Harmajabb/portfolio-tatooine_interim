@@ -1,0 +1,111 @@
+/* ======================================================
+   Author: TATOOINE INTERIM
+   For: hackathon wild code school
+   Description: Index stylesheet for general graphic chart
+   ====================================================== */
+
+/* ===== FONT IMPORT ROOT VARIABLES ===== */
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+	/*Color*/
+	--bg: hsl(7, 8%, 21%);
+	--bg-card: hsl(192, 3%, 31%);
+	--link: hsl(22, 32%, 43%);
+	--linkv: hsl(33, 52%, 65%);
+	--cardv: hsl(195, 9%, 55%);
+	--unknow: hsl(19, 16%, 34%);
+
+	/*font-size*/
+	--fs-300: clamp(0.5rem, 0.7rem + 0.3vw, 1rem); /* ~14–16px */
+	--fs-400: clamp(1rem, 0.9rem + 0.4vw, 1.125rem); /* ~16–18px */
+	--fs-600: clamp(1.25rem, 1rem + 1vw, 1.75rem); /* ~20–28px */
+}
+
+/* ===== RESET LIGHT ===== */
+
+::before,
+*::after {
+	box-sizing: border-box;
+}
+html,
+body,
+#root {
+	height: 100%;
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: var(--bg);
+	font-family:
+		"Roboto",
+		system-ui,
+		-apple-system,
+		Segoe UI,
+		sans-serif;
+	color: #fff;
+	font-weight: 400;
+}
+
+a,
+button {
+	cursor: pointer;
+}
+
+/*links*/
+a {
+	color: var(--link);
+	font-weight: 600;
+	text-decoration: none;
+}
+a:hover {
+	color: var(--linkv);
+}
+
+/*button*/
+button {
+	background-color: var(--link);
+	border: none;
+	padding: 1rem 2rem;
+	color: #fff;
+	margin: 0.5rem 1rem;
+	border-radius: 20px;
+	transition: background 0.3s;
+}
+button:hover {
+	background-color: var(--linkv);
+}
+
+/*text*/
+h1 {
+	font-size: clamp(1rem, -1.6563rem + 8.5vw, 6.125rem);
+	font-family:
+		"Orbitron",
+		system-ui,
+		-apple-system,
+		Segoe UI,
+		sans-serif;
+}
+h2 {
+	font-family: "Orbitron", sans-serif;
+	font-size: clamp(1.5rem, 3vw, 2.5rem);
+	margin: 3rem auto;
+	text-align: center;
+}
+h3 {
+	font-family: "Orbitron", sans-serif;
+	font-size: var(--fs-400);
+}
+h4 {
+}
+p {
+}
+
+/*img*/
+img {
+	height: auto;
+}

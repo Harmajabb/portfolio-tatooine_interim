@@ -1,0 +1,74 @@
+h1 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.detail-form {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center; /* <-- Ajoutez cette ligne */
+  grid-area: auto;
+  gap: 10em;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form button{
+  grid-column: span 2;
+  cursor: pointer;
+}
+
+.form-input{
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+}
+
+
+.modal-content {
+  background: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 300px;
+  max-width: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.titre-modal{
+color: #ffffff;
+}
+
+
+.modal-content pre {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

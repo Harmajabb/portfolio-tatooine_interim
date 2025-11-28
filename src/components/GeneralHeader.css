@@ -1,0 +1,92 @@
+::before,
+*::after {
+	box-sizing: border-box;
+}
+html,
+body,
+#root {
+	height: 100%;
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.site-header {
+	background: var(--bg);
+}
+
+.container-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo-header {
+	height: auto;
+	width: 40%;
+	padding: 0.8rem 1.6rem;
+}
+.navbar-header {
+	padding: 0 3rem;
+}
+
+.navbar-header a {
+	position: relative;
+	color: var(--link);
+	text-decoration: none;
+	padding: 0.25rem 1rem;
+	font-weight: 900;
+	transition: color 0.2s ease;
+}
+
+.navbar-header a:hover {
+	color: var(--unknow);
+}
+
+/* Active link underline */
+.navbar-header a::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -6px;
+	height: 2px;
+	background: transparent;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition:
+		transform 0.2s ease,
+		background-color 0.2s ease;
+}
+
+.navbar-header a:hover::after {
+	background: var(--unknow);
+	transform: scaleX(1);
+}
+.navbar-header a.active {
+	color: var(--linkv);
+}
+.navbar-header a.active::after {
+	background: var(--linkv);
+	transform: scaleX(1);
+}
+
+/* Mobile tweaks */
+@media (max-width: 640px) {
+	.site-header .container-header {
+		height: auto;
+		padding: 0.5rem 1rem;
+	}
+	.site-header .container-header {
+		flex-wrap: wrap;
+		gap: 0.5rem 1rem;
+	}
+	.navbar-header {
+		width: 100%;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 0.5rem 1rem;
+	}
+}
