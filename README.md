@@ -7,7 +7,11 @@ Working in a team of six, we built a fictional recruitment agency set in the Sta
 *[[Original repo](https://github.com/Aurelie78290/Tatooine_Interim)]
 
 **Live preview of my portfolio version:**  
-*[[Live site](https://portfolio-tatooine-interim.vercel.app/Home)]*
+*[[Live site](https://portfolio-tatooine-interim.vercel.app/)]*
+
+find a little red button from the entry of the ship
+
+![[image of how to find the red button](src/assets/red-button.png)]
 
 ---
 
