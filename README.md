@@ -1,17 +1,19 @@
-# 🌌 Tatooine Inter·im - 24h Challenge Project
+# Tatooine Inter·im - 24h Challenge Project
 
 This project was created during a **24-hour team challenge** at the Wild Code School.  
 Working in a team of six, we built a fictional recruitment agency set in the Star Wars universe: **Tatooine Interim** - matching clients with unconventional job opportunities… even if some of the clients are already dead.
 
-🔗 **Original team repository:**  
+**Original team repository:**  
 *[[Original repo](https://github.com/Aurelie78290/Tatooine_Interim)]
+
+**Live preview of my portfolio version:**  
+*[[Live site](https://portfolio-tatooine-interim.vercel.app/Home)]*
 
 ---
 
 ## Preview
 
-[Project Preview](src/assets/preview.png)
-
+![Project Preview](src/assets/preview.png)
 
 ---
 
