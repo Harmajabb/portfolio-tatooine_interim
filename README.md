@@ -11,7 +11,7 @@ Working in a team of six, we built a fictional recruitment agency set in the Sta
 
 find a little red button from the entry of the ship
 
-![[image of how to find the red button](src/assets/red-button.png)]
+[[image of how to find the red button](src/assets/red-button.png)]
 
 ---
 
