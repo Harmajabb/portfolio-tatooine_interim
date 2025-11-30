@@ -1,73 +1,78 @@
-# React + TypeScript + Vite
+# 🌌 Tatooine Inter·im - 24h Challenge Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was created during a **24-hour team challenge** at the Wild Code School.  
+Working in a team of six, we built a fictional recruitment agency set in the Star Wars universe: **Tatooine Interim** - matching clients with unconventional job opportunities… even if some of the clients are already dead.
 
-Currently, two official plugins are available:
+🔗 **Original team repository:**  
+*[[Original repo](https://github.com/Aurelie78290/Tatooine_Interim)]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Project Preview](src/assets/preview.png)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## About the Project
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+The goal was to build a fun, fully responsive website in only **24 hours**.  
+The site includes:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- A hero section introducing the agency  
+- A grid of services and job offers  
+- A testimonials section featuring "clients" from the Star Wars universe  
+- A playful design system referencing sci-fi themes  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Everything was created collaboratively during this short hackathon.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Tech Stack
+
+- **React**  
+- **CSS / custom styling**  
+- **JavaScript (ES6)**  
+
+---
+
+## My Contribution
+
+In this team project, I specifically developed:
+
+### Hero Component  
+- Full layout & structure  
+- Responsive styling  
+- Text content & visual identity  
+
+### Grid Component  
+- Icon & card layout  
+- Section design  
+- Integration into the homepage  
+- Responsive behavior  
+
+### “Dead Clients” Testimonials Section  
+- Component creation  
+- Humorous content integration  
+- Styling & layout choices  
+- Ensuring consistency with the site’s tone  
+
+This repository contains **the full team project**, but this README highlights the parts I personally worked on.
+
+---
+
+## Team Members
+
+This 24h challenge was completed by:
+
+- Léa François  
+- Joachim Masson  
+- Pierre Fourdin  
+- Rémi Karlesking  
+- Aurélie Dumontier  
+- Cécile Pardo  
+
+Wild Code School - 24h challenge, 2025.
+
+
